@@ -13,7 +13,7 @@
 ---
 
 ### **Education**
-* **BSc in Computer Engineering & Informatics** | University of Patras (2021–2027)
+* **MEng in Computer Engineering & Informatics** | University of Patras (2021–2027)
     * *Focus:* Distributed Systems, Data Engineering, AI/ML, Software Engineering
 
 ---
