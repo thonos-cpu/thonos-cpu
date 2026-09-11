@@ -1,79 +1,100 @@
-#  Athanasios Tasis
-### Software Engineer • Data Engineering • Distributed Systems • AI/ML
+<h1 align="center">Athanasios Tasis</h1>
+
+<p align="center">
+  <strong>Software Engineering · Data Engineering · Distributed Systems · AI/ML</strong>
+</p>
+
+<p align="center">
+  Building reliable data pipelines. Understanding scalable systems. Applying machine learning.
+</p>
+
+<p align="center">
+  <a href="https://links.tasis.info/home"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&amp;logoColor=white" alt="Portfolio"></a>
+  <a href="https://github.com/thonos-cpu"><img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub profile"></a>
+  <a href="mailto:athanasios@tasis.info"><img src="https://img.shields.io/badge/Email-0F766E?style=for-the-badge&amp;logoColor=white" alt="Email Athanasios"></a>
+</p>
+
+<p align="center">
+  <a href="#experience">Experience</a> ·
+  <a href="#selected-projects">Projects</a> ·
+  <a href="#education--research">Education &amp; Research</a> ·
+  <a href="#technical-stack">Technical Stack</a>
+</p>
 
 ---
 
-### 🕹️ Brief CV
+I'm a Computer Engineering & Informatics student at the **University of Patras**, working across software engineering, data systems, and machine learning. My experience includes scientific data pipelines for **ALICE at GSI**, distributed-systems experiments, information retrieval, and time-series forecasting.
 
-**Experience**
-* **Data Analysis Intern @ ALICE Collaboration, GSI Helmholtz Centre (Darmstadt)** (2026–Present)
-    * *High-Energy Physics:* Processing large-scale detector datasets using ROOT, RDataFrame, and HPC environments.
-    * *Data Pipelines:* Time-series analysis, performance optimization, and distributed data workflows on Lustre systems..
+I'm especially interested in how systems behave under real constraints: growing datasets, limited compute resources, unreliable transfers, and changing workloads.
+
+## Experience
+
+### Incoming AI / Digital Innovation Intern · Procter & Gamble
+
+**Brussels Innovation Center, Belgium · October 2026 – March 2027**
+
+Joining the **Data & Analytics squad** for an internship focused on AI and digital innovation, starting **1 October 2026**.
+
+### Data Engineering Intern · ALICE Experiment, GSI Helmholtz Centre
+
+**Darmstadt, Germany · February – June 2026**
+
+- Built automated workflows to retrieve, validate, and synchronize ALICE TPC time-series data from the CERN grid to GSI's Lustre environment.
+- Developed **ROOT/C++ quality-control analysis**, including detector-sector trends, Gaussian fits, and energy-loss heatmaps.
+- Optimized a ROOT analysis workflow, reducing runtime from **approximately 19 minutes to 6 minutes**.
+- Worked with **HPC batch processing, Slurm, and Singularity** to support reproducible scientific analysis.
+
+[Read the ALICE TPC pipeline technical write-up →](https://github.com/thonos-cpu/alice-tpc-data-pipeline)
+
+## Selected Projects
+
+| Project | Engineering focus |
+| --- | --- |
+| **[Chord DHT Simulation](https://github.com/thonos-cpu/Distributed_Systems)** | Python simulation of consistent hashing, finger-table routing, replication, and node failures. Experiments use **~946K movie records** to study lookup cost and data availability. |
+| **[TF-IDF Retrieval & Document Clustering](https://github.com/thonos-cpu/TFIDF-Search-Engine)** | Custom TF-IDF and tuned scikit-learn retrieval models evaluated on **1,239 medical articles**. Includes precision/recall analysis and clustering with sentence-transformer embeddings. |
+| **[IoT Time-Series Forecasting](https://github.com/thonos-cpu/Temp_Hum_Prediction_Model)** | MongoDB ingestion, timestamp repair, missing-data handling, and temporal feature engineering. Benchmarks regression and SARIMAX forecasts for environmental sensor measurements. |
+| **[Thesis Management Platform](https://github.com/thonos-cpu/Thesis_Managment_Website)** | PHP/MySQL application in development for student, supervisor, and departmental thesis workflows, with separate interfaces for each role. |
+| **[Hotel Booking Analytics](https://github.com/thonos-cpu/Hotel-Booking-Data-Analysis-and-Visualization)** | Exploratory analysis and visualization of **119,390 bookings**, examining cancellations, seasonality, guest behavior, and revenue patterns with Pandas, Matplotlib, and Seaborn. |
+
+[Explore all repositories →](https://github.com/thonos-cpu?tab=repositories)
+
+## Education & Research
+
+### Integrated M.Eng. in Computer Engineering & Informatics
+
+**University of Patras, Greece · 2021 – 2027 (expected)**  
+Five-year, **300-ECTS** integrated master's program · In progress
+
+**Diploma thesis:** *Dynamic Scaling of Computing Resources in Edge Computing using Reinforcement Learning*
+
+Investigating reinforcement learning for adapting computing resources to changing workloads in edge environments, with a focus on performance and resource efficiency. Supervised by **Prof. Christos Verikoukis**.
+
+**Academic focus:** Distributed systems, data engineering, machine learning, and software engineering.
+
+**Recognition:** Eurobank Ergasias Scholarship · **12th place** in the Hellenic University Hackathon as part of a five-person team.
+
+## Technical Stack
+
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Python · C++ · SQL · Bash · JavaScript · PHP |
+| **Data & machine learning** | NumPy · Pandas · scikit-learn · PyTorch · statsmodels · sentence-transformers |
+| **Scientific computing** | ROOT · RDataFrame · TChain · Statistical fitting |
+| **Systems & infrastructure** | Linux · Slurm · Lustre · Docker · Singularity / Apptainer |
+| **Databases** | MySQL · MongoDB |
+| **Development & visualization** | Git · Jupyter · Matplotlib · Seaborn |
+
+## Currently Exploring
+
+- **Reinforcement learning for resource scaling** through my diploma thesis.
+- **Linux networking and self-hosted infrastructure**, including DNS resolvers and caching.
+- **AI agents and retrieval-augmented generation** as areas of further learning.
 
 ---
 
-### **Education**
-* **MEng in Computer Engineering & Informatics** | University of Patras (2021–2027)
-    * *Focus:* Distributed Systems, Data Engineering, AI/ML, Software Engineering
-
----
-
-### 🛰️ Current Field Ops
-
-* **⚙️ Distributed Systems:** Custom **Chord-based DHT** implementation with replication, hashing (xxhash64), and performance benchmarking (O(log N) routing).
-* **📊 Data Engineering:** Large-scale dataset processing (GB-level), multiprocessing pipelines, and performance tuning.
-* **🔍 Information Retrieval:** Custom **TF-IDF search engine** with cosine similarity, ranking metrics (Precision/Recall, DCG).
-* **🧪 Scientific Computing:** ROOT-based analysis of TPC detector data, time-series transformations, and statistical visualization.
-* **🖥️ HPC Systems:** Working with Slurm clusters, remote compute nodes, and containerized environments (Singularity).
-
----
-
-### 🛠️ Technical Arsenal
-
-#### **Languages & Core Tools**
-<img src="https://skillicons.dev/icons?i=py,cpp,bash,git,linux" />
-
-#### **Data & AI**
-<img src="https://skillicons.dev/icons?i=python" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-
-#### **Systems & Infrastructure**
-<img src="https://skillicons.dev/icons?i=linux,docker,github" />
-<img src="https://img.shields.io/badge/HPC-Slurm-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/ROOT-Scientific%20Computing-green?style=for-the-badge" />
-
----
-
-### 📂 Notable Projects
-
-* **Distributed Hash Table (Chord)**
-    * Scalable P2P system with replication strategies and benchmarking across hundreds of nodes.
-    * Dataset: ~1.5GB movie metadata, parallel ingestion with multiprocessing.
-
-* **TF-IDF Search Engine**
-    * Custom IR system with inverted index, ranking algorithms, and evaluation metrics.
-
-* **ROOT Time-Series Analysis**
-    * Analysis of ALICE TPC detector data using RDataFrame, vectorized computations, and optimized plotting.
-
----
-
-### 🚀 Focus Areas
-* Distributed Systems & Scalability  
-* Data Engineering & Pipelines  
-* Machine Learning Foundations  
-* High-Performance Computing  
-
----
-
-### 📈 Metrics & Activity
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=thonos-cpu&theme=tokyonight&hide_border=true" height="150" />
-
----
-
-### 🤝 Contact
-* **Email:** athanasios@tasis.info  
-* **Portfolio:** https://links.tasis.info/home  
-* **GitHub:** https://github.com/thonos-cpu  
+<p align="center">
+  Interested in data systems, scientific software, or applied AI? Let's connect.<br>
+  <a href="mailto:athanasios@tasis.info">athanasios@tasis.info</a> ·
+  <a href="https://links.tasis.info/home">Portfolio</a> ·
+  <a href="https://github.com/thonos-cpu">GitHub</a>
+</p>
