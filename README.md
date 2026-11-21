@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thonos-cpu/thonos-cpu/output/github-contribution-grid-snake-dark.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/thonos-cpu/thonos-cpu/output/github-contribution-grid-snake.svg">
+</picture>
+
+
 #  Athanasios Tasis
 ### Software Engineer • Data Engineering • Distributed Systems • AI/ML
 
@@ -72,12 +78,6 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=thonos-cpu&theme=tokyonight&hide_border=true" height="150" />
 
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=thonos-cpu&theme=dracula&hide_title=true&border_radius=0&custom_title=Check+me+out&hide=issues%2Ctrend%2Cavg%2Cactive_day%2Cgrade%2Cfollowers)
-
-### 🐍 Contribution Snake
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thonos-cpu/thonos-cpu/output/github-contribution-grid-snake-dark.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/thonos-cpu/thonos-cpu/output/github-contribution-grid-snake.svg">
-</picture>
 
 ---
 
