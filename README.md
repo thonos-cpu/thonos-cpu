@@ -71,8 +71,7 @@
 ### 📈 Metrics & Activity
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=thonos-cpu&theme=tokyonight&hide_border=true" height="150" />
 
-![GitHub Stats Card](https://ghstats.dev/api/card?username=thonos-cpu&theme=dracula&border_radius=0&custom_title=Check+me+out&hide=issues%2Ctrend%2Cavg%2Cactive_day%2Cgrade%2Cfollowers)
-
+![GitHub Stats Card](https://ghstats.dev/api/card?username=thonos-cpu&theme=dracula&hide_title=true&border_radius=0&custom_title=Check+me+out&hide=issues%2Ctrend%2Cavg%2Cactive_day%2Cgrade%2Cfollowers)
 ---
 
 ### 🤝 Contact
